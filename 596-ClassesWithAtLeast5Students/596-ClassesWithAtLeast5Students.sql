@@ -1,0 +1,7 @@
+-- Last updated: 07/07/2026, 13:21:14
+# Write your MySQL query statement below
+SELECT class
+FROM Courses
+GROUP BY class
+HAVING COUNT(class) >= 5
+ORDER BY class DESC;
